@@ -1,0 +1,28 @@
+{
+  "name": "yummy",
+  "version": "1.0.0",
+  "description": "preapre food or eat in Resturant",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "keywords": [
+    "Food",
+    "Resturant",
+    "Recipe"
+  ],
+  "author": "Shamin Memary",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10",
+    "sass": "^1.58.2"
+  },
+  "dependencies": {
+    "core-js": "^3.28.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
